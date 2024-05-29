@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    padding-block: .7rem;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.genLayout{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.navWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navWrapper>h1{
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #001330;
+}
+
+.navWrapper>h1>span{
+    color: #f9c91d;
+}
+
+.navRight{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navItems{
+    display: flex;
+    gap: 2rem;
+}
+
+.navItems>a{
+    text-decoration: none;
+    color: #001330;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 600;
+    opacity: .3;
+}
+
+.navItems>a:first-child{
+    font-weight: 900;
+    opacity: 9;
+}
+
+.navItems>a>span{
+    border-bottom: 2px solid #f9c91d;
+}
+
+.btnGroup{
+    display: flex;
+    gap: 2rem;
+}
+
+.btnGroup>button{
+    padding: .3rem 1.4rem;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.btnGroup>button:first-child{
+    background-color: transparent;
+    border: 2px solid #f9c91d;
+}
+
+.btnGroup>button:last-child{
+    background-color: #f9c91d;
+    border: none;
+    box-shadow: .5px .3px 80px #000;
+}
+
+.secOne{
+    height: 100vh;
+    display: flex;
+}
+
+.heroBg{
+    flex: 1;
+    background-color: #001330;
+}
+
+.heroBgContent{
+    margin-block: 7rem;
+    margin-inline: 4rem;
+}
+
+.heroBgContent>h1{
+    color: #fff;
+    font-size: 3rem;
+    width: 250px;
+    font-weight: 500;
+}
+
+.heroBgContent>h1>span{
+    color: #f9c91d;
+}
+
+.heroBgContent>p{
+    color: #8a8e90;
+    font-size: 13px;
+    width: 260;
+    margin-block: 2rem;
+}
+
+.heroImg{
+    flex: 1;
+    background-image: url(./images/flashCar1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.HeroBtnGroup{
+    display: flex;
+    gap: 25px;
+}
+
+.HeroBtnGroup>button{
+    padding: .3rem 1rem;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.HeroBtnGroup>button:first-child{
+    background-color: #f9c91d;
+    border: none;
+}
+
+.HeroBtnGroup>button:last-child{
+    background-color: transparent;
+    border: 1px solid #f9c91d;
+    color: #fff;
+}
+
+.secTwo{
+    padding-block: 2rem;
+}
+
+.secTwo>h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 500;
+    width: 100px;
+    margin: auto;
+}
+
+.tarriffsWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 5rem;
+}
+
+.tarriffCard{
+    width: 300px;
+    height: 250px;
+    position: relative;
+}
+
+.tarriffCard>img{
+    width: 170px;
+    position: absolute;
+    top: -9rem;
+    left: 3.5rem;
+}
+
+.tarriffCard:nth-child(1){
+    background-color: #fff9e5;
+}
+
+.tarriffCard:nth-child(2){
+    background-color: #001330;
+    color: #fff;
+}
+
+.tarriffCard:nth-child(3){
+    background-color:#fffcf2;
+}
+
+.tarriffContent{
+    margin-top: 5rem;
+}
+
+.tarriffContent>h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.tarriffContent>p{
+    text-align: center;
+    margin: .6rem auto;
+    width: 150px;
+    font-size: 13px;
+}
+
+.tarriffContent>h5{
+    text-align: center;
+}
+
+.btnTarriff{
+    width: 100px;
+    margin: 2rem auto;
+}
+
+.btnTarriff>button{
+    width: 100%;
+}
+
+.tarriffContent>h5{
+    text-align: center;
+}
+
+.btnTarriff{
+    width: 100px;
+    margin: 2rem auto;
+}
+
+.btnTarriff>button{
+    width: 100%;
+    padding: .3rem 1rem;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #f9c91d;
+    text-transform: capitalize;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+
+.secThird{
+    background-color: #f9c91d;
+}
+
+
+.secThird>h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 500;
+    width: 100px;
+    margin: auto;
+    padding-block: 19px;
+    position: relative;
+    bottom: -50px;
+}
+
+.secThird>h1>span{
+    position: relative;
+    left: 530px;
+}
+
+.secThird>.topLeft{
+    position: relative;
+    left: 150px;
+    bottom: -120px;
+}
+
+
+.secThird>.topMiddle{
+    position: relative;
+    left: 570px;
+    bottom: -20px;
+}
+
+.secThird>.topRight{
+    position: relative;
+    left: 1050px;
+    top: -85px;
+}
+
+.secThird>.buttomLeft{
+    position: relative;
+    left: 150px;
+    top: 25px;
+}
+
+.secThird>.buttomMiddle{
+    position: relative;
+    left: 570px;
+    bottom: 76px;
+}
+
+.secThird>.buttomRight{
+    position: relative;
+    left: 1050px;
+    bottom: 175px;
+}
+
+
+
+
+
+
+
